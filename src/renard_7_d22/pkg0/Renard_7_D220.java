@@ -6,8 +6,9 @@ package renard_7_d22.pkg0;
 public class Renard_7_D220 {
 //challange D22-0
     public static void main(String[] args) {
+        //code for running 'somenumber' through the 'divby' method
         for(int somenumber = 0; somenumber <501; somenumber++){
-        System.out.print(somenumber + ": "); 
+        System.out.print(somenumber + ": ");
         divby(somenumber);
         
                
@@ -29,34 +30,35 @@ public class Renard_7_D220 {
         
         if(somenumber % 2 == 0){
             if(somenumber % 22 == 0){
-                divby22 = true; //ninja                
+                divby22 = true; //ninja
         }else{
-            divby2 = true; //davis           
+            divby2 = true; //davis
        }
        }
         if(somenumber % 3 == 0){
             if(somenumber % 33 == 0){
-                divby33 = true; //herr direktor               
+                divby33 = true; //herr direktor
         }else{
-            divby3 = true; //claughton          
+            divby3 = true; //claughton
        }
        }
         if(somenumber % 5 == 0){
             if(somenumber % 55 == 0){
-                divby55 = true; //animate this!              
+                divby55 = true; //animate this!
         }else{
-            divby5 = true; //vidal          
+            divby5 = true; //vidal
        }
        }
         if(somenumber % 2 == 0 && somenumber % 3 == 0){
-            divby23 = true; //chisme          
+            divby23 = true; //chisme
        }
         if(somenumber % 3 == 0 && somenumber % 5 == 0){
-            divby35 = true; //old school      
+            divby35 = true; //old school
        }
         if(somenumber % 2 == 0 && somenumber % 3 == 0 && somenumber % 5 == 0){
-            divby235 = true; //team building          
+            divby235 = true; //team building
        }
+        // if/else statements.
         if(divby55){
                 System.out.println("Animate this!");
         }else{
@@ -84,6 +86,5 @@ public class Renard_7_D220 {
                 if(divby2){
                 System.out.println("Davis");
                 }else{
-                System.out.println("Prime");
+                System.out.println("None");
                 }}}}}}}}}}}
-
